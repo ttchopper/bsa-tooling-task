@@ -3,5 +3,5 @@ define(['secondModule'], function(secondModule) {
 	jsOutput.innerHTML += 'Entry module works!';
 
 	//Calling second module
-      secondModule.run(jsOutput); 
+        secondModule.run(jsOutput); 
 });
