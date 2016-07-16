@@ -27,9 +27,9 @@ gulp.task('jade', function() {
 
 gulp.task('sass', function() {
 	gulp.src('src/sass/**/*.*')
-	.pipe(sass().on('error', sass.logError))
-	.pipe(gulp.dest('dist/css'))
-	.pipe(connect.reload());
+		.pipe(sass().on('error', sass.logError))
+		.pipe(gulp.dest('dist/css'))
+		.pipe(connect.reload());
 });
 
 gulp.task('requireJS', function() {
